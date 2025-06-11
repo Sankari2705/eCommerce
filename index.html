@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Website</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+</head>
+<body>
+  <!---Header-->
+  <header>
+    <a href="#" class="logo">FOOD COURT</a>
+    <div id="cart-icon" class="cart-svg">
+      <i class="fa fa-shopping-bag"></i>
+      <span class="cart-item-count"></span>
+    </div>
+</header>
+<!----cart------->
+<div class="cart">
+  <h2 class="cart-title">Your Cart</h2>
+  <div class="cart-content">
+    <!---<div class="cart-box">
+      <img src="images/img1.jpg" class="cart-img">
+      <div class="cart-detail">
+        <h2 class="cart-product-title">Lemon Tea</h2>
+        <span class="cart-price">Rs. 40</span>
+        <div class="cart-quantity">
+          <button id="decrement">-</button>
+          <span class="number">1</span>
+          <button id="increment">+</button>
+        </div>
+      </div>
+      <i class="fa fa-trash cart-remove"></i>
+    </div>-->
+  </div>
+  <div class="total">
+    <div class="total-title">Total</div>
+    <div class="total-price">$0</div>
+  </div>
+  <button class="btn-buy">Buy Now</button>
+  <i class="fa fa-close" id="cart-close"></i>
+</div>
+<!----Section---->
+<section class="shop">
+  <h1 class="section-title">Food Menu</h1>
+  <div class="product-content">
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img1.jpg"/>
+      </div>
+      <h2 class="product-title">Idly</h2>
+      <div class="price-and-cart">
+        <span class="price">$30</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img2.jpg" art="art">
+      </div>
+      <h2 class="product-title">Podi Idly</h2>
+      <div class="price-and-cart">
+        <span class="price">$50</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img3.jpg" art="art">
+      </div>
+      <h2 class="product-title">Thattu Idly</h2>
+      <div class="price-and-cart">
+        <span class="price">$60</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img4.jpg" art="art">
+      </div>
+      <h2 class="product-title">Kal Dosa</h2>
+      <div class="price-and-cart">
+        <span class="price">$45</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img5.jpg" art="art">
+      </div>
+      <h2 class="product-title">Masala Dosa</h2>
+      <div class="price-and-cart">
+        <span class="price">$60</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img6.jpg" art="art">
+      </div>
+      <h2 class="product-title">Varity Rice</h2>
+      <div class="price-and-cart">
+        <span class="price">$90</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+    </div>
+    </div>
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img7.jpg" art="art">
+      </div>
+      <h2 class="product-title">Sambar Rice</h2>
+      <div class="price-and-cart">
+        <span class="price">$50</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img8.jpg" art="art">
+      </div>
+      <h2 class="product-title">Sweet Roti</h2>
+      <div class="price-and-cart">
+        <span class="price">$50</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img9.jpg" art="art">
+      </div>
+      <h2 class="product-title">Roti</h2>
+      <div class="price-and-cart">
+        <span class="price">$40</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img10.jpg" art="art">
+      </div>
+      <h2 class="product-title">Naan with Paneer</h2>
+      <div class="price-and-cart">
+        <span class="price">$70</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img11.jpg" art="art">
+      </div>
+      <h2 class="product-title">Masala Roti</h2>
+      <div class="price-and-cart">
+        <span class="price">$80</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img12.jpg" art="art">
+      </div>
+      <h2 class="product-title">North Thali</h2>
+      <div class="price-and-cart">
+        <span class="price">$100</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img13.jpg" art="art">
+      </div>
+      <h2 class="product-title">South indian Rice</h2>
+      <div class="price-and-cart">
+        <span class="price">$110</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img14.jpg" art="art">
+      </div>
+      <h2 class="product-title">Coconut Rice</h2>
+      <div class="price-and-cart">
+        <span class="price">$60</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img15.jpg" art="art">
+      </div>
+      <h2 class="product-title">Mashroom Rice</h2>
+      <div class="price-and-cart">
+        <span class="price">$140</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img-box">
+        <img src="images/img16.jpg" art="art">
+      </div>
+      <h2 class="product-title">Pongal</h2>
+      <div class="price-and-cart">
+        <span class="price">$40</span>
+        <i class="fa fa-shopping-bag add-cart"></i>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="script.js" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"></script>
+</body>
+</html>
+
